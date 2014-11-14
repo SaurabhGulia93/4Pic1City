@@ -44,6 +44,7 @@ static NSManagedObjectContext* context;
     self.window.rootViewController = front;
     [self.window makeKeyAndVisible];
     
+    //SaurabhGuliaAddedFlurry
     [Flurry setCrashReportingEnabled:YES];
     [Flurry startSession:@"P977CQNBP3F7JCGXFTRT"];
     [FlurryAds initialize:self.window.rootViewController];
