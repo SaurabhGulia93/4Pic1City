@@ -47,6 +47,9 @@ static NSManagedObjectContext* context;
     //SaurabhGuliaAddedFlurry
     [Flurry setCrashReportingEnabled:YES];
     [Flurry startSession:@"P977CQNBP3F7JCGXFTRT"];
+    
+
+    //FlurryAdsIntegrated
     [FlurryAds initialize:self.window.rootViewController];
     
     // Override point for customization after application launch.
